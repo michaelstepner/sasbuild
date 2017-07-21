@@ -21,7 +21,7 @@ Of course, it's entirely possible that a program needs to be re-run even if none
 
 ## Setup
 
-* Download **sasbuild.ps1**, and save it somewhere convenient on your computer.
+* Download [**sasbuild.ps1**](https://raw.githubusercontent.com/michaelstepner/sasbuild/master/sasbuild.ps1), and save it somewhere convenient on your computer.
 * Open **sasbuild.ps1** in a text editor. Look at the section marked `#Config`. If needed, update the paths to the SAS executable and the SAS config file to the correct paths on your computer.
 * Create a plain text file with a list of the SAS programs that need to be run to build your project. Put the path to each SAS program on its own line, omitting the ".sas" file extension. Paths can be absolute or relative. For example, suppose you have two programs: **first.sas** and **second.sas**. Then you could open Notepad and create a file called **myproject.txt** containing:
 
